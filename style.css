@@ -1,0 +1,177 @@
+*::-moz-selection{
+	background: tomato;
+}
+*::selection{
+	background: tomato;
+}
+p{
+	margin: 0;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 18px;
+}
+a{
+	text-decoration: none;
+	color: tomato;
+	font-style: italic;
+	font-family: sans-serif;
+}
+h2{
+	margin: 0;
+}
+#conteneur{
+	width: 1000px;
+	margin: 0 auto;
+	box-shadow: 1px 1px 4px #c2c2c2;
+}
+header{
+	height: 100px;
+	/* background: #4080af; */
+}
+.clear{
+	clear: left;
+}
+.haut_gauche{
+	float: left;
+	/* background: #00ffaa; */
+	width: 100px;
+	height: 100px;
+}
+.haut_gauche img{
+	margin: 7px 0 0 13px;
+}
+.haut_milieu{
+	float: left;
+	/* background: #aaff44; */
+	width: 800px;
+	height: 100px;
+}
+.haut_milieu h1{
+	text-align: center;
+	margin: 38px 0 0 0;/*haut droite bas gauche*/
+	font-style: italic;
+	letter-spacing: -1px;/*Espacement entre les lettres*/
+	font-family: sans-serif;
+}
+.haut_droit{
+	float: left;
+	/* background: #888; */
+	width: 100px;
+	height: 100px;
+}
+.haut_droit img{
+	margin: 10px 0 0 50px;
+}
+nav{
+	height: 36px;
+	background: #70ac20 url(img/menu_off.png);
+}
+nav a{
+	color: #fff;
+	/* display: block; */
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 20px;
+}
+.ici{
+background: #70ac20 url(img/menu_on.png);
+}
+nav a:hover{
+	background: #70ac20 url(img/menu_on.png);
+}
+section{
+	/* overflow: hidden; */
+	/* background: tomato; */
+}
+
+/********** accueil **********/
+
+.mondiaporama{
+	height: 260px;
+	/* background: #66ff6f; */
+}
+.contenu_gauche{
+	/* background: yellow; */
+	float: left;
+	width: 460px;
+	padding: 20px;
+
+}
+.contenu_droit{
+	/* background: blue; */
+	float: left;
+	width: 460px;
+	padding: 20px;
+}
+section h2{
+	margin: 0 0 5px 0;
+	color: tomato;
+	letter-spacing: -2px;
+	font-style: italic;
+	font-family: sans-serif;
+}
+/*section img{*/
+.contenu_gauche img, .contenu_droit img {
+	float: left;
+	margin: 0 5px 0 0;
+}
+/********************* MES PROJETS ********************/
+.mesprojets_zone_du_bas, .mesprojets_zone_du_haut{
+	padding: 20px;
+}
+.mesprojets_zone_du_bas img{
+	margin: 10px 20px;
+	box-shadow: 1px 1px 5px #c2c2c2;
+}
+/*** mon cv ***/
+
+/********************* CONTACT ***********************/
+#contact{
+	padding: 30px;
+}
+label{
+	float: left;
+	width: 80px;
+}
+input[type="text"],input[type="email"]{
+	padding: 5px;
+	width: 220px;
+}
+textarea{
+	padding: 5px;
+	resize: vertical; /*none*/
+	width: 220px;
+}
+
+footer{
+	height: 80px;
+	background: #383838;
+	text-align: center;
+	padding: 30px 0 0 0;
+	color: #fff;
+}
+footer p{
+	color: #fff;
+}
+footer a{
+	color: tomato;
+	font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
